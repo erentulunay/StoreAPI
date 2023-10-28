@@ -1,6 +1,8 @@
-﻿namespace API.Entities;
+﻿using Microsoft.AspNetCore.Identity;
 
-public class User
+namespace API.Entities;
+
+public class User : IdentityUser
 {
     
 }
